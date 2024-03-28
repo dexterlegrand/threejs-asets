@@ -1,0 +1,51 @@
+.icon-cell {
+    width: 10%;
+}
+
+.icon-button {
+    color: #fff; 
+    background-color: #197292; 
+    border-radius: 50%;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.icon-button:hover {
+    background-color: #13556e; 
+}
+
+.add-button {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 16px;
+    background-color: #b7481f; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+    background-color: #923a19; 
+    transform: translateY(-2px);
+}
+
+.add-button:active {
+    background-color: #6e2b13; 
+    transform: translateY(0); 
+}
+
+.category-name,
+.category-value {
+    background-color: #1f8eb7;
+    color: #ffffff; 
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.category-name:hover,
+.category-value:hover {
+    background-color: #197292; 
+}
+
+

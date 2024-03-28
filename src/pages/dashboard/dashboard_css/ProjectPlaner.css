@@ -1,0 +1,91 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: white; 
+}
+
+.dashboard-header {
+  top: 0;
+  position: sticky;
+  display: flex;
+  user-select: none;
+  background-color: #1f8eb7; 
+  border-bottom: 1px solid #13556e; 
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-header-content {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  user-select: none;
+  color: #0c3949; 
+  padding: 5px;
+}
+
+.additional-info-container{
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dashboard-table td.info {
+  padding: 1px 10px;
+  background-color: #13556e; 
+  color: #ffffff;
+  width: 250px;
+}
+
+.dashboard-table-project-planer {
+  border-spacing: 15px 10px;
+
+}
+
+.dashboard-table-project-planer .info {
+  margin-left: 10px;
+  padding: 10px 10px;
+  border: 3px solid #0c3949; 
+  background-color: #13556e; 
+  color: #ffffff; 
+  width: 250px;
+  font-size: 18px;
+}
+
+.dashboard-table-project-planer td {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #13556e; 
+  background-color: #f2fafd; 
+  border-radius: 12px;
+  color: #0c3949; 
+  width: 35%;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.dashboard-table-project-planer td:hover {
+  transform: scale(1.01);
+  filter: brightness(1.2);
+  background-color: #eef7fa; 
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dashboard-table-project-planer .info:hover {
+  transform: scale(1.01);
+  filter: brightness(1.1);
+  background-color: #0c3949;
+}
+
+.division {
+  background-color: #ccebf6; 
+}

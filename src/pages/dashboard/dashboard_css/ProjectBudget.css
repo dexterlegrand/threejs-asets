@@ -1,0 +1,141 @@
+.budget-dashboard {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2fafd;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+    max-width: 100%;
+}
+
+.budget-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.budget-content, .budget-summary, .budget-piechart {
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.budget-content-inner {
+    padding: 15px;
+}
+
+.budget-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #f2fafd; 
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); 
+}
+
+.budget-table th{
+    font-size: 21px;
+    color: white;
+    padding: 10px;
+    background-color: #0c3949;
+}
+
+.budget-table tr{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 8px;
+}
+
+.budget-table tr:nth-child(odd) {
+    background-color: #80cdea;
+}
+
+.budget-table tr:nth-child(even) {
+    background-color: #f2fafd; 
+}
+
+.budget-table tr:hover {
+    transform: scale(1.02);
+    background-color: #e0f0f8; 
+}
+
+.budget-table td{
+    flex: 1;
+    padding: 8px;
+    text-align: center;
+}
+
+.budget-table .white-icon {
+    color: #ffffff; 
+    background-color: #1f8eb7; 
+    border-radius: 50%;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.budget-table .white-icon:hover {
+    background-color: #13556e; 
+}
+
+.budget-summary {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.budget-summary .info {
+    font-size: 21px;
+    padding: 10px;
+    background-color: #197292; 
+    color: #ffffff; 
+    font-weight: bold;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.budget-summary .info:hover {
+    background-color: #13556e; 
+}
+
+.budget-piechart {
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    max-width: 40%;
+    height: 600px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #f6f8fa, #e9ecf0);
+}
+
+
+
+
+.add-category-btn {
+    background-color: #1f8eb7; 
+    color: #ffffff; 
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 12px 24px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-category-btn:hover {
+    background-color: #13556e; 
+    transform: translateY(-2px);
+}
+
+.add-category-btn:active {
+    background-color: #0c3949;
+    transform: translateY(0);
+}
+
+
+
+
+

@@ -1,0 +1,54 @@
+.learnDlg-bp3-card {
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+    background-color: #ffffff;
+    border: 1px solid #e1e8ed;
+}
+
+.learnDlg-bp3-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.learnDlg-bp3-dialog-body {
+    background-color: #f5f8fa;
+    padding: 15px;
+}
+
+.learnDlg-bp3-dialog-footer {
+    padding: 10px 15px;
+    border-top: 1px solid #e1e8ed;
+    background-color: #ffffff;
+}
+
+.learnDlg-bp3-dialog-body > * {
+    max-width: 100%;  
+    overflow: hidden; 
+}
+
+.learnDlg-bp3-dialog-body img {
+    width: 100%;  
+    height: auto; 
+    display: block;
+}
+
+.learnDlg-bp3-dialog-body .responsive-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;  
+}
+
+.learnDlg-bp3-dialog-body .responsive-container > * {
+    flex: 1;   
+}
+
+.full-screen .learnDlg-bp3-dialog-body {
+    font-size: 1.5em;  
+}
+
+.full-screen .learnDlg-bp3-dialog-body img {
+    max-height: 80vh;
+    max-width: 100%; 
+}
+
+

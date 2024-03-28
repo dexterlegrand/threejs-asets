@@ -1,0 +1,93 @@
+{
+  "name": "asset-lux",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@blueprintjs/core": "^3.45.0",
+    "@blueprintjs/datetime": "^3.24.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.27",
+    "@fortawesome/free-solid-svg-icons": "^5.12.1",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@kitware/vtk.js": "^25.1.2",
+    "@reactour/tour": "^3.6.1",
+    "@svgdotjs/svg.js": "^3.0.16",
+    "@types/react-chartjs-2": "^2.5.7",
+    "@types/video-react": "^0.15.1",
+    "antd": "^5.13.3",
+    "axios": "^0.19.2",
+    "canvg": "^3.0.7",
+    "chart.js": "^2.9.3",
+    "chartjs-plugin-zoom": "^0.7.7",
+    "connected-react-router": "^6.8.0",
+    "console": "^0.7.2",
+    "file-saver": "^2.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "jspdf": "^2.5.1",
+    "jwt-decode": "^2.2.0",
+    "localforage": "^1.10.0",
+    "makerjs": "^0.17.0",
+    "papaparse": "^5.2.0",
+    "react": "^16.13.0",
+    "react-chartjs-2": "^2.10.0",
+    "react-color": "^2.19.3",
+    "react-dom": "^16.13.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-select": "^4.3.1",
+    "recoil": "^0.7.1",
+    "redux": "latest",
+    "redux-logger": "^3.0.6",
+    "superagent": "^5.2.2",
+    "superagent-promise": "^1.1.0",
+    "three": "^0.114.0",
+    "three-gltf-loader": "^1.111.0",
+    "typesafe-actions": "latest",
+    "typescript": "3.8.3",
+    "video-react": "^0.15.0",
+    "vtk.js": "^25.2.0",
+    "xlsx": "^0.16.3"
+  },
+  "scripts": {
+    "start": "react-app-rewired --max_old_space_size=4096 start",
+    "build": "react-app-rewired --max_old_space_size=4096 build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/file-saver": "^2.0.1",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/jspdf": "^1.3.3",
+    "@types/jwt-decode": "^2.2.1",
+    "@types/node": "^12.0.0",
+    "@types/papaparse": "^5.0.4",
+    "@types/react": "^16.9.0",
+    "@types/react-color": "^3.0.6",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.7",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-select": "^4.0.15",
+    "@types/recoil": "^0.0.9",
+    "@types/superagent": "^4.1.7",
+    "@types/three": "^0.131.0",
+    "@types/xlsx": "^0.0.36",
+    "prettier": "1.19.1",
+    "react-app-rewired": "^2.2.1"
+  }
+}

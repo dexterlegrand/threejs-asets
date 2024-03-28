@@ -1,0 +1,13 @@
+<?xml version="1.1" standalone="no"?>
+  <svg version="1.1" xmlns="http://www.w3.org/2000/svg"  width="25.000000pt" height="25.000000pt" viewBox="0 0 25.000000 25.000000" preserveAspectRatio="xMidYMid meet">
+  <path d="M3 18 L14 18 L12 1 L5 1 Z" stroke="#ffffff" stroke-width="2" fill="#C8C8C8" />
+  <path d="M1 24 L5 1" stroke="#ffffff" stroke-width="2" fill="white" />
+  <path d="M16 24 L12 1" stroke="#ffffff" stroke-width="2" fill="white" />
+  <path d="M5 2 L12 2" stroke="#ffffff" stroke-width="2" fill="white" />
+  <path d="M4 10 L13 10" stroke="#ffffff" stroke-width="2" fill="white" />
+  <path d="M3 18 L14 18" stroke="#ffffff" stroke-width="2" fill="white" />
+  <path d="M5 2 L13 10" stroke="#ffffff" stroke-width="2" fill="white" />
+  <path d="M3 10 L14 18" stroke="#ffffff" stroke-width="2" fill="white" />
+  <path d="M20 24 L16 1" stroke="#f9d107" stroke-width="3" fill="white" />
+  Sorry, your browser does not support inline SVG.
+</svg>

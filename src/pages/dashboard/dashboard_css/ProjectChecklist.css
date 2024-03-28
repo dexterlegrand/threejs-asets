@@ -1,0 +1,22 @@
+.noStyle {
+    background-color: initial;
+}
+
+.dashboard-checklist-Project-checklist {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.trial {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;;
+}
+
+.dashboard-checklist-Project-checklist .trial button{
+    border-radius: 12px;
+    height: 0.5vw;
+    align-self: center;
+}

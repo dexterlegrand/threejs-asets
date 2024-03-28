@@ -1,0 +1,24 @@
+  [data-tooltip]::after {
+    content: attr(data-tooltip); 
+    position: absolute;
+    top: 100%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: black; 
+    color: white; 
+    padding: 4px 8px; 
+    border-radius: 4px; 
+    white-space: nowrap; 
+    z-index: 1000; 
+    visibility: hidden; 
+    opacity: 0; 
+    transition: visibility 0s linear 0.2s, opacity 0.2s linear; 
+  }
+  
+  [data-tooltip]:hover::after {
+    visibility: visible; 
+    opacity: 1; 
+    z-index: 1000;
+  }
+  
+  

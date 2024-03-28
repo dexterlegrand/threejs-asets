@@ -1,0 +1,10 @@
+<?xml version="1.1" standalone="no"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"  width="25.000000pt" height="25.000000pt" viewBox="0 0 25.000000 25.000000" preserveAspectRatio="xMidYMid meet">
+  <circle cx="12" cy="12" r="11" stroke="#5EB65E" stroke-width="3" fill="transparent" />
+  <circle cx="12" cy="12" r="5" stroke="#5EB65E" stroke-width="3" fill="transparent" />
+  <path d="M12 1 L12 6" stroke="#5EB65E" stroke-width="3" fill="white" />
+  <path d="M12 18 L12 24" stroke="#5EB65E" stroke-width="3" fill="white" />
+  <path d="M1 12 L6 12" stroke="#5EB65E" stroke-width="3" fill="white" />
+  <path d="M18 12 L24 12" stroke="#5EB65E" stroke-width="3" fill="white" />
+  Sorry, your browser does not support inline SVG.
+</svg>

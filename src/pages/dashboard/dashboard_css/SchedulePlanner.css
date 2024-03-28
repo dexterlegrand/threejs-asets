@@ -1,0 +1,95 @@
+.schedule-planner-header {
+    display: flex;
+    align-items: center;
+    background-color: #0c3949;
+    color: #ffffff;
+    padding: 10px;
+    gap: 10px;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 21px;
+}
+
+.selector-width {
+    width: 200px;
+}
+
+.status-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.bg-yellow-500 {
+    background-color: yellow;
+}
+
+.bg-green-500 {
+    background-color: green;
+}
+
+.bg-red-500 {
+    background-color: red;
+}
+
+
+.schedule-planner-table-container {
+    overflow-x: auto;
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f2fafd; 
+    padding: 20px;
+    border: 1px solid #197292; 
+}
+
+.schedule-planner-table {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    border-spacing: 3px;
+}
+
+.schedule-planner-table td{
+    padding: 5px;
+    border-radius: 12px;;
+    border: 1px solid black;
+    color: black;
+    height: 30px;
+}
+
+.schedule-planner-table th {
+    border-radius: 12px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #13556e;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.schedule-planner-table th {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 10px;
+    background-color: #0c3949; 
+    color: #ffffff; 
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.schedule-planner-table tbody tr:nth-child(odd) {
+    border-radius: 4px;
+    background-color: #f2fafd; 
+    color: #0c3949; 
+}
+
+.schedule-planner-table tbody tr:nth-child(even) {
+    border-radius: 4px;
+    background-color: #ccebf6; 
+    color: #67c3e5;
+}
+
+.schedule-planner-table tr:hover {
+    background-color: #ccebf6;
+}

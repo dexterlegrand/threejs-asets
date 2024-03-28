@@ -1,0 +1,25 @@
+#splash_screen {
+  height: 100%;
+  /*background-color: #1f8eb7;*/
+  display: grid;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+#root {
+  height: 100%;
+}
+
+#splash_img {
+  animation: logo-spin infinite 2s linear;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}

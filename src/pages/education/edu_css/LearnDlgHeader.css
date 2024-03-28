@@ -1,0 +1,32 @@
+.learnDlg-header {
+    display: flex;
+    align-items: center;
+    background-color: #0c3949;
+    color: #ffffff;
+    padding: 10px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.learnDlg-heading {
+    flex-basis: 88%; 
+    max-width: 88%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.learnDlg-header-buttons {
+    flex-basis: 10%; 
+    max-width: 10%;
+    display: flex;
+    justify-content: flex-end; 
+    flex-grow: 1; 
+}
+
+.learnDlg-header .bp3-button + .bp3-button {
+    margin-left: 5px; 
+}
+
+

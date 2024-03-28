@@ -1,0 +1,8 @@
+<?xml version="1.1" standalone="no"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"  width="16.000000pt" height="16.000000pt" viewBox="0 0 16.000000 16.000000" preserveAspectRatio="xMidYMid meet">
+  <ellipse cx="6" cy="8" rx="4" ry="7" stroke="rgb(256,256,256)" stroke-width="2" fill="transparent" />
+  <path d="M6 1 L6 7" stroke="rgb(256,256,256)" stroke-width="2" fill="transparent" />
+  <path d="M3 7 L11 7" stroke="rgb(256,256,256)" stroke-width="2" fill="transparent" />
+  <text x="11" y="8" stroke="rgb(256,256,256)" stroke-width="2" fill="transparent" font-size = "10px">?</text>
+  Sorry, your browser does not support inline SVG.
+</svg>

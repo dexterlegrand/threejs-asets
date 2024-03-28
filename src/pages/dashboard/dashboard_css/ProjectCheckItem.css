@@ -1,0 +1,205 @@
+/*.dashboard-checklist-item-project {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 20vw;
+    margin-bottom: 10px;
+    background-color: #4b4b4b;
+    border-radius: 12px;
+  }
+  
+  .dashboard-checklist-item-project Button{
+    margin-top: 10px;
+    height: 10px;
+    display: flex;
+    color: #007BFF !important;
+    border-radius: 12px;
+  }
+
+  .dashboard-checklist-item-header {
+    padding: 5px;
+    background-color: #3fa7d5;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    filter: brightness(1.5);
+  }
+  
+  .dashboard-checklist-trial button{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 12px;
+    background-color: #1f8eb7;
+    width: 20vw;
+    height: 2vw;
+    align-self: center;
+  }
+  
+  .trial button:hover{
+    box-shadow: 0px 12px 24px 0px rgba(114, 50, 50, 0.2);
+    transform: scale(1.01);
+  }
+  
+  .white-icon span {
+    color: white !important;
+  }
+
+  .dashboard-table-project-check-item {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #1a1a1a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .dashboard-table-project-check-item tbody {
+    display: block;
+  }
+  
+  .dashboard-table-project-check-item tr {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    background-color: #2b2b2b;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 6px;
+  }
+  
+  .dashboard-table-project-check-item td {
+    flex: 1; 
+    padding: 8px;
+    text-align: center;
+    color: #c0c0c0;
+  }
+  .dashboard-table-project-check-item tbody :hover{
+    transform: scale(1.012);
+}
+  
+  .dashboard-table-project-check-item .p-5 {
+    padding: 5px;
+  }
+  
+  .dashboard-table-project-check-item .bg-gray {
+    background-color: #444;
+  }
+  
+  .dashboard-table-project-check-item .h-100p {
+    height: 100%;
+  }
+  
+  .dashboard-table-project-check-item .white-icon {
+    color: #ffffff;
+    background-color: #007BFF; 
+    border-radius: 50%; 
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-table-project-check-item .white-icon:hover {
+    background-color: #00567b;
+  }
+  
+  .dashboard-table-project-check-item .w-100p {
+    width: 100%;
+  }*/
+
+  .dashboard-checklist-item-project {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #13556e; 
+    margin: 10px;
+    background-color: #f2fafd;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.dashboard-checklist-item-header {
+    font-size: 21px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #1f8eb7; 
+    color: white; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-checklist-item-header:hover {
+    background-color: #13556e; 
+}
+
+.white-icon span {
+    color: #0c3949 !important;
+}
+
+.dashboard-table-project-check-item {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #f2fafd;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+
+.dashboard-table-project-check-item tr {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 6px;
+    transition: transform 0.2s ease;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dashboard-table-project-check-item tr:nth-child(odd){
+  background-color: #80cdea;
+}
+
+.dashboard-table-project-check-item tr:nth-child(even){
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.dashboard-table-project-check-item td {
+    flex: 1 3;
+    padding: 8px;
+    text-align: center;
+}
+
+.dashboard-table-project-check-item td:hover {
+  transform: scale(1.01);
+  border-radius: 6px;
+  background-color: #1f8eb7;
+}
+
+.dashboard-table-project-check-item tr:hover {
+    transform: scale(1.01);
+    background-color: #e0f0f8;
+}
+
+.dashboard-table-project-check-item .white-icon {
+    color: white;
+    border-radius: 50%;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-table-project-check-item .white-icon:hover {
+    background-color: #13556e; 
+}
